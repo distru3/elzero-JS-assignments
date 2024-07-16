@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let start = 0;
+      let swappedName = "elZerO";
+      let Name = "";
+      for (i = start; i < swappedName.length; i++) {
+        if (swappedName[i] === swappedName[i].toLowerCase()) {
+          Name += swappedName[i].toUpperCase();
+        } else if (swappedName[i] === swappedName[i].toUpperCase()) {
+          Name += swappedName[i].toLowerCase();
+        }
+      }
+      console.log(Name);
+    </script>
+  </body>
+</html>

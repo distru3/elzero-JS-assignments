@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let num1 = 9;
+      let str = "9";
+      let str2 = "20";
+
+      // Output
+      if (num1 == str) {
+        console.log(`${num1} is the same value as ${str}`);
+      }
+      if (!(num1 === str) && num1 == str) {
+        console.log(
+          `${num1} is the same value as ${str} but not the same type`
+        );
+      }
+      if (!(num1 === str2) && !(num1 == str2)) {
+        console.log(
+          `${num1} Is Not The Same Value Or The Same Type As ${str2}`
+        );
+      }
+      if (typeof str === typeof str2 && !(str == str2)) {
+        console.log(
+          `${str} Is The Same Type As ${str2} But Not The Same Value`
+        );
+      }
+    </script>
+  </body>
+</html>

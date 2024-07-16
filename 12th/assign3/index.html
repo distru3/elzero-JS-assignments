@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function ageInTime(theAge) {
+        if (theAge >= 100 || theAge <= 10) {
+          console.log("age not in range.");
+        } else {
+          console.log(`Months: ${theAge * 12}`);
+          console.log(`Weeks: ${theAge * 52.143}`);
+          console.log(`Days: ${theAge * 365}`);
+          console.log(`Hours: ${theAge * 8760}`);
+          console.log(`Minutes: ${theAge * 525600}`);
+          console.log(`Seconds: ${theAge * 3.154e7}`);
+        }
+        console.log("-----------------------------");
+      }
+
+      // Needed Output
+      ageInTime(110); // Age Out Of Range
+      ageInTime(38); // Months Example => 456 Months
+    </script>
+  </body>
+</html>
