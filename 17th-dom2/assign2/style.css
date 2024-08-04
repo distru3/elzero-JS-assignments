@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.content{
+    margin: 200px auto;
+    text-align: center;
+    font-size: 40px;
+    width: 800px;
+}
+
+.content input{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.content #current{
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+.content .added{
+    background-color: #ddd;
+    margin: 20px;
+    padding: 10px;
+}
+
+.content .added h4{
+    margin: 0;
+}
+
+.content .added .ava{
+    padding: 30px;
+}
+
+.content .added .ava span{
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    font-size: 30px;
+    margin: 0 10px;
+}

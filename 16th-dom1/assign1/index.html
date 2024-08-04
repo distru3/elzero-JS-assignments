@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="elzero" class="element" name="js">JavaScript</div>
+    <script>
+        let id = document.getElementById("elzero");
+        console.log(id);
+        let name = document.getElementsByName("js");
+        console.log(name[0]);
+        let classs = document.getElementsByClassName("element");
+        console.log(classs[0]);
+        let maid = document.getElementsByTagName('div');
+        console.log(maid[0]);
+        let query = document.querySelector(".element");
+        console.log(query);
+        let query2 = document.querySelector("#elzero");
+        console.log(query2);
+        let query3 = document.querySelector("div");
+        console.log(query3);
+        let query4 = document.querySelector("div.element");
+        console.log(query4);
+        let queryAll = document.querySelector("div.element");
+        console.log(queryAll);
+        let queryAll2 = document.querySelector("div");
+        console.log(queryAll2);
+        let queryAll3 = document.querySelector("#elzero");
+        console.log(queryAll3);
+        let queryAll4 = document.querySelector("#elzero");
+        console.log(queryAll4);
+        let body1 = document.body.firstElementChild;
+        console.log(body1);
+        let body2 = document.body.children[0];
+        console.log(body2);
+        let body3 = document.body.childNodes[1];
+        console.log(body3);
+        </script>
+</body>
+</html>
