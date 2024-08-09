@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let dateNow = new Date()
+        dateNow.setDate(0)
+        console.log(dateNow)
+        let months = ["jan","feb","mar","apr","may","jun","jul"]
+        console.log(`prev mounth is ${months[dateNow.getMonth()]} and last day is ${dateNow.getDate()}`)
+        // Needed Output
+
+"Sat Apr 30 2022 18:13:20 GMT+0200 (Eastern European Standard Time)"
+"Previous Month Is April And Last Day Is 30"
+    </script>
+</body>
+</html>

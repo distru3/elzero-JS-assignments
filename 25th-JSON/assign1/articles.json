@@ -1,0 +1,37 @@
+[
+    {
+        "id":123,
+        "title": "science",
+        "body": "blah blah",
+        "category": "idk",
+        "author": "doc ahmed khalid"
+    },
+    {
+        "id":124,
+        "title": "physics",
+        "body": "blah blah",
+        "category": "idk",
+        "author": "doc ahmed khalid"
+    },
+    {
+        "id":125,
+        "title": "history",
+        "body": "blah blah",
+        "category": "idk",
+        "author": "doc ahmed khalid"
+    },
+    {
+        "id":126,
+        "title": "anything",
+        "body": "blah blah",
+        "category": "idk",
+        "author": "doc ahmed khalid"
+    },
+    {
+        "id":127,
+        "title": "i dont even know anymore",
+        "body": "blah blah",
+        "category": "idk",
+        "author": "doc ahmed khalid"
+    }
+]
